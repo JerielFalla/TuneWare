@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tunehome.css">
+    <title>Tuneware!</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+</head>
+<body>
+    
+    <!--    SHOPPING CART OVERLAY     -->
+    <div class="cart-modal-overlay">
+        <div class="cart-modal">
+          <i id="close-btn" class="fas fa-times"></i>
+            <h1 class="cart-is-empty">Cart is empty</h1>
+          
+            <div class="product-rows">
+            </div>
+            <div class="total">
+              <h1 class="cart-total">TOTAL</h1>
+                <span class="total-price">₱0</span>
+                  <button class="purchase-btn">PURCHASE</button>
+            </div>
+          </div>
+    </div>
+
+
+
+
+
+    <section id="header">
+        <div id="headlogo"><a href="index.html">
+	<img src="projectimgs/tuneware.png" class="logo" alt=""></a></div>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="products.html">PRODUCTS</a></li>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+                <li><i id="cart" class="far fa-shopping-cart"></i>
+                    <span class="cart-quantity">0</span>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+
+    <section id="contact-header">
+        <h2>CONTACT US</h2>
+    </section>
+
+
+    <section id="contact-body">
+        <div id="contact-para">
+            <h2>GET IN TOUCH!</h2>
+            <p>Contact us with your concerns or information requests. At TuneWare <br>Instrument, your satisfaction is
+            important to us. We’re happy to hear<br>from our customers and we will get back to you soon.</p>
+        </div>
+
+        <div id="contact-icon">
+            <ul>
+                <li><i class="fas fa-phone">09566918330</i></li>
+                <li><i class="far fa-envelope">tuneware@gmail.com</i></li>
+            </ul>
+
+        </div>
+
+        <form action="#" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          
+            <button type="submit">Submit</button>
+          </form>
+          
+    </section>
+    
+    <footer>
+
+        <div class="footer-container">
+            <h2>FOLLOW US ON</h2>
+          <div class="socialIcons">
+                <a href=""><i class="fab fa-facebook"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="far fa-envelope"></i></a>
+          </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>Copyright &copy;2023; Designed by <span class="designer">TuneWare!</span></p>
+        </div> 
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="tuneware.js"></script>
+
+</body>
+</html>

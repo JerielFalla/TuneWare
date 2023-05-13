@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tunehome.css">
+    <title>Tuneware!</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+</head>
+<body>
+    
+    <!--    SHOPPING CART OVERLAY     -->
+    <div class="cart-modal-overlay">
+        <div class="cart-modal">
+          <i id="close-btn" class="fas fa-times"></i>
+            <h1 class="cart-is-empty">Cart is empty</h1>
+          
+            <div class="product-rows">
+            </div>
+            <div class="total">
+              <h1 class="cart-total">TOTAL</h1>
+                <span class="total-price">₱0</span>
+                  <button class="purchase-btn">PURCHASE</button>
+            </div>
+          </div>
+    </div>
+
+
+
+
+
+    <section id="header">
+        <div id="headlogo"><a href="index.html">
+	<img src="projectimgs/tuneware.png" class="logo" alt=""></a></div>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="products.html">PRODUCTS</a></li>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+                <li><i id="cart" class="fas fa-shopping-cart"></i>
+                    <span class="cart-quantity">0</span>
+                </li>
+            </ul>
+
+        </div>
+
+    </section>
+
+
+    <section id="page-header">
+                <h2>#StayHomeBuyAtHome</h2>
+                <p>Save more with coupons & up to 70% off!</p>
+           
+    </section>
+    
+
+    <section id="fea-product" class="section-p1">
+        <!--   1st product  -->
+        <div class="feapro-container">
+                <div class="fea-pro" >
+                    <img class="product-image" src="products/Global-LP-Black-1.png" onclick="window.location.href='sproduct.html';" >
+                    <div class="des">
+                        <span>Global</span>
+                        <h5>Global LP - Les Paul Guitar - Black</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>   
+                    <span class="product-price">₱7195</span>
+                    <button class="add-to-cart">Add to Cart</button>  
+                </div>
+        
+            <!--   2nd product  -->
+                <div class="fea-pro" >
+                    <img class="product-image" src="products/Global-LP-Blue-1.png" onclick="window.location.href='sproduct-1.html';">
+                    <div class="des">
+                        <span>Global</span>
+                        <h5>Global LP - Les Paul Guitar - Blue</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>    
+                    </div>
+                    <span class="product-price">₱7195</span>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                    
+         
+        
+             <!--   3rd product  -->
+            <div class="fea-pro">
+                <img class="product-image" src="products/Global-LP-2-1.png" alt="" onclick="window.location.href='sproduct-2.html';">
+                <div class="des">
+                    <span>Global</span>
+                    <h5>Global LP - Les Paul Guitar - 2 - 1</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <span class="product-price">₱7195</span>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+
+             <!--   4st product  -->
+            <div class="fea-pro">
+                <img class="product-image" src="products/Global-LP-2.png" alt="" onclick="window.location.href='sproduct-3.html';">
+                <div class="des">
+                    <span>Global</span>
+                    <h5>Global LP - Les Paul Guitar - 2 - 1</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <span class="product-price">₱7195</span>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+
+
+            <div class="fea-pro">
+                <img src="products/GLL-2111.jpg" alt="">
+                <div class="des">
+                    <span>Global</span>
+                    <h5>Global GLL - 2111</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    
+                </div>
+                <span class="product-price">₱7195</span>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="fea-pro">
+                <img src="products/GLE-711D.jpg" alt="">
+                <div class="des">
+                    <span>Global</span>
+                    <h5>Global GLE - 711D</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                     
+                </div>
+                <span class="product-price">₱7195</span>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="fea-pro">
+                <img src="products/Pulse-36-CE-with-tuner.-4.png" alt="">
+                <div class="des">
+                    <span>Global</span>
+                    <h5>Global LP - Les Paul Guitar</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₱7,195.00</h4>
+                </div>
+                <a href="#"><i class="far fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="fea-pro">
+                <img src="products/Natural-Front-2.jpg" alt="">
+                <div class="des">
+                    <span>Global</span>
+                    <h5>Global LP - Les Paul Guitar</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₱7,195.00</h4>
+                </div>
+                <a href="#"><i class="far fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="fea-pro">
+                <img src="products/Orange-Front-3.jpg" alt="">
+                <div class="des">
+                    <span>Global</span>
+                    <h5>Global LP - Les Paul Guitar</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₱7,195.00</h4>
+                </div>
+                <a href="#"><i class="far fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="fea-pro">
+                <img src="products/Black-Front-3.jpg" alt="">
+                <div class="des">
+                    <span>Global</span>
+                    <h5>Global LP - Les Paul Guitar</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₱7,195.00</h4>
+                </div>
+                <a href="#"><i class="far fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="fea-pro">
+                <img src="products/Pulse B04 Bass Guitar - Sunburst.png" alt="">
+                <div class="des">
+                    <span>Global</span>
+                    <h5>Global LP - Les Paul Guitar</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₱7,195.00</h4>
+                </div>
+                <a href="#"><i class="far fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="fea-pro">
+                <img src="products/Pulse B04 Bass Guitar.png" alt="">
+                <div class="des">
+                    <span>Global</span>
+                    <h5>Global LP - Les Paul Guitar</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₱7,195.00</h4>
+                </div>
+                <a href="#"><i class="far fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="fea-pro">
+                <img src="products/Global-LP-Blue-1.png" alt="">
+                <div class="des">
+                    <span>Global</span>
+                    <h5>Global LP - Les Paul Guitar</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₱7,195.00</h4>
+                </div>
+                <a href="#"><i class="far fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="fea-pro">
+                <img src="products/Global-LP-Blue-1.png" alt="">
+                <div class="des">
+                    <span>Global</span>
+                    <h5>Global LP - Les Paul Guitar</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₱7,195.00</h4>
+                </div>
+                <a href="#"><i class="far fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="fea-pro">
+                <img src="products/Global-LP-Blue-1.png" alt="">
+                <div class="des">
+                    <span>Global</span>
+                    <h5>Global LP - Les Paul Guitar</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₱7,195.00</h4>
+                </div>
+                <a href="#"><i class="far fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="fea-pro">
+                <img src="products/Global-LP-Blue-1.png" alt="">
+                <div class="des">
+                    <span>Global</span>
+                    <h5>Global LP - Les Paul Guitar</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="product-price">₱7,195.00</span>
+                </div>
+                <button class="normal">Add to Cart</button>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section id="pagination" class="section-p1">
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#"><i class="fal fa-long-arrow-alt-right"></i></a>
+    </section>
+    
+    <footer>
+
+        <div class="footer-container">
+            <h2>FOLLOW US ON</h2>
+          <div class="socialIcons">
+                <a href=""><i class="fab fa-facebook"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="far fa-envelope"></i></a>
+          </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>Copyright &copy;2023; Designed by <span class="designer">TuneWare!</span></p>
+        </div> 
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="tuneware.js"></script>
+
+</body>
+</html>
